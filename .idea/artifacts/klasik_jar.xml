@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="klasik:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/klasik_jar</output-path>
+    <root id="archive" name="klasik.jar">
+      <element id="module-output" name="klasik" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

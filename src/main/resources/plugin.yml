@@ -1,0 +1,15 @@
+name: klasik
+version: '${project.version}'
+main: klasik.klasik.Klasik
+api-version: '1.20'
+commands:
+  fly:
+    description: a
+    usage: /fly
+    aliases: f
+    permission: fly
+    permission-message: Brak dostępu do komendy!
+  back:
+    description: b
+    usage: /back
+    aliases: b
