@@ -2,6 +2,8 @@ package klasik.klasik;
 
 import klasik.klasik.commands.Fly;
 import klasik.klasik.handlers.TorchHandler;
+import klasik.klasik.handlers.WinterBiomeHandler;
+import klasik.klasik.handlers.ZombiePatrol;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
@@ -27,6 +29,8 @@ public final class Klasik extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new DeathListener(), this);
 
+        new WinterBiomeHandler(this);
+        new ZombiePatrol(this);
         new TorchHandler(this);
     }
 
