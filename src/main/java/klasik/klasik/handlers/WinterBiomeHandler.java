@@ -26,13 +26,10 @@ public class WinterBiomeHandler implements Listener {
     public void onWinterBiome(PlayerMoveEvent event){
         Location event_location = event.getPlayer().getLocation();
         Block block = event_location.getBlock();
-        Bukkit.getLogger().info("marchew");
         if(block.getBiome() == Biome.GROVE){
             Random random = new Random();
-            Bukkit.getLogger().info("A torch was placed!");
             if(random.nextInt(1000) == 0){
                 event_location.getWorld().playSound(event_location, Sound.ITEM_GOAT_HORN_SOUND_1, SoundCategory.AMBIENT, 1, 1);
-                Bukkit.getLogger().info("Time!");
             }
         }
     }

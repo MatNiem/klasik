@@ -13,3 +13,7 @@ commands:
     description: b
     usage: /back
     aliases: b
+  home:
+    description: c
+    usage: /home
+    aliases: /h

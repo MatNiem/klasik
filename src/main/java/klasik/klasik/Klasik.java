@@ -27,6 +27,7 @@ public final class Klasik extends JavaPlugin {
         deathLocations = new HashMap<>();
         getCommand("fly").setExecutor(new Fly());
 
+
         getServer().getPluginManager().registerEvents(new DeathListener(), this);
 
         new WinterBiomeHandler(this);
