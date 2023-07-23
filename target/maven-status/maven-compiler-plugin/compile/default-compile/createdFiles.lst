@@ -1,3 +1,4 @@
+klasik\klasik\handlers\EatingHandler.class
 klasik\klasik\handlers\TorchHandler.class
 klasik\klasik\Klasik$DeathListener.class
 klasik\klasik\commands\Fly.class
@@ -6,3 +7,4 @@ klasik\klasik\Klasik$1.class
 klasik\klasik\handlers\WinterBiomeHandler.class
 klasik\klasik\Klasik.class
 klasik\klasik\handlers\ZombiePatrol.class
+klasik\klasik\handlers\DoomsDay.class

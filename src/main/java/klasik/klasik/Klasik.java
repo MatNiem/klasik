@@ -1,6 +1,7 @@
 package klasik.klasik;
 
 import klasik.klasik.commands.Fly;
+import klasik.klasik.handlers.EatingHandler;
 import klasik.klasik.handlers.TorchHandler;
 import klasik.klasik.handlers.WinterBiomeHandler;
 import klasik.klasik.handlers.ZombiePatrol;
@@ -33,6 +34,7 @@ public final class Klasik extends JavaPlugin {
         new WinterBiomeHandler(this);
         new ZombiePatrol(this);
         new TorchHandler(this);
+        new EatingHandler(this);
     }
 
     @Override
